@@ -42,8 +42,6 @@ return [
     // 'paths' => ['api/*'],
     'paths' => ['api/*', '*'],
 
-    // 'allowed_methods' => ['*'],
-    'allowed_methods' => ['POST', 'GET', 'DELETE', 'PUT', 'PATCH', '*'],
 
     // 'allowed_origins' => ['*'],
     'allowed_origins' => [
@@ -55,16 +53,9 @@ return [
         'https://my.test',
     ],
 
-    'allowed_origins_patterns' => [],
 
-    'allowed_headers' => ['*'],
-    // 'allowed_headers' => ['X-Custom-Header', 'Upgrade-Insecure-Requests', '*'],
-    // 'allowedHeaders' => ['content-type', 'x-csrf-token', 'x-requested-with'],
 
-    'exposed_headers' => [],
-    // 'exposed_headers' => ['*'],
 
-    'max_age' => 0,
 
     // 'supports_credentials' => false,
     'supports_credentials' => true,
