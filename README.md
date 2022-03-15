@@ -59,9 +59,10 @@ return [
     // 'supports_credentials' => false,
     'supports_credentials' => true,
 
-
 ```
+
 write your all local and staging and dev envoirments into the list to allow the request from these URL
+
 ```
 'http://localhost:3000',
         'http://localhost:8000',
@@ -70,13 +71,15 @@ write your all local and staging and dev envoirments into the list to allow the 
         'https://apimy.test',
         'https://my.test',
 ```
+
 and turn him true
+
 ```
 'supports_credentials' => true,
 ```
+
 allow this path in * formate
+
 ```
 'paths' => ['api/*', '*'],
-``
-
- 
+```
