@@ -1,6 +1,6 @@
 <H1>Fixing Common Problems with CORS and Lavravel and reactjs (node) project</H1>
 
-# Error-localhost-3000-has-been-blocked-by-CORS-policy-Response-to-preflight-request-doesn-t-pass access control check
+Error-localhost-3000-has-been-blocked-by-CORS-policy-Response-to-preflight-request-doesn-t-pass access control check
 
 # Problem's :
 
