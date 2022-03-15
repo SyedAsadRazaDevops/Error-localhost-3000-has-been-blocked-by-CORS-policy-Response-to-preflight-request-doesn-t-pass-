@@ -11,6 +11,7 @@ Response to preflight request doesn't pass access control check: No 'Access-Cont
 No 'Access-Control-Allow-Origin' header is present on the requested resource—when trying to get data from a REST API
 
 **What is CORS ?**
+
 Many websites have JavaScript functions that make network requests to a server, such as a REST API. The web pages and APIs are often in different domains.
 This introduces security issues in that any website can request data from an API. Cross-Origin Resource Sharing (CORS) provides a solution to these issues.
 It became a W3C recommendation in 2014. It makes it the responsibility of the web browser to prevent unauthorized access to APIs. 
