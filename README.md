@@ -20,7 +20,9 @@ unless the REST API server gives permission.
 there are two ways to resolve this issue by:
 - **1#** nginx in site-avalible file
 - **2#** laravel cors.php file
+
 >we go with the second one option.
+
 ```
 <?php
 
@@ -53,15 +55,9 @@ return [
         'https://my.test',
     ],
 
-
-
-
-
     // 'supports_credentials' => false,
     'supports_credentials' => true,
 
-];
-Collapse
 
 ```
 write your all local and staging and dev envoirments into the list to allow the request from these URL
